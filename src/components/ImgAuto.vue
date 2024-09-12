@@ -1,45 +1,28 @@
 <template>
-    <div class="block text-center" m="t-4">
-      <span class="demonstration">服务器截图</span>
-      <el-carousel trigger="click" height="300px">
-        <el-carousel-item v-for="(image,index) in images" :key="index">
-          <img :src="image" alt="服务器截图">
-        </el-carousel-item>
-      </el-carousel>
-    </div>
-  </template>
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-ride="carousel" data-interval="2000">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+        <img src="@/assets/ImgAuto/1.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/ImgAuto/2.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="@/assets/ImgAuto/3.png" class="d-block w-100" alt="...">
+      </div>
+  </div>
+</div>
   
+</template>
+
 <script>
-export default {
-  data() {
-    return {
-      images: [
-        require('@/assets/ImgAuto/1.png'),
-        require('@/assets/ImgAuto/2.png'),
-        require('@/assets/ImgAuto/3.png')
-      ]
-    };
-  }
-}
+
 </script>
+
 <style scoped>
-  .demonstration {
-    color: var(--el-text-color-secondary);
-  }
-  
-  .el-carousel__item h3 {
-    color: #475669;
-    opacity: 0.75;
-    line-height: 150px;
-    margin: 0;
-    text-align: center;
-  }
-  
-  .el-carousel__item:nth-child(2n) {
-    background-color: #99a9bf;
-  }
-  
-  .el-carousel__item:nth-child(2n + 1) {
-    background-color: #d3dce6;
-  }
+/* 样式可以根据需要自定义 */
+.carousel-item img {
+  height: 500px;
+  /* 例如设置固定高度 */
+}
 </style>
