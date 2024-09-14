@@ -1,5 +1,5 @@
 <template>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg">
       <a class="navbar-brand" href="#">
         <img src="@/assets/minecraft_logo.png" width="30" height="30" alt="Minecraft Logo">
         凌云之都
