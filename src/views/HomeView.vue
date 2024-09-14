@@ -24,7 +24,7 @@
     <div class="row">
       <div class="col-4">
         <div class="card" style="width: 18rem;">
-          <div class="card-body">
+          <div class="card-body shadow">
             <h5 class="card-title">生存服务器</h5>
             <p style="color: cadetblue;">版本:1.21 支持互通</p>
             <p style="color: gray;margin: 10px;">-----------------</p>
@@ -38,7 +38,7 @@
       </div>
       <div class="col-4">
         <div class="card" style="width: 18rem;">
-          <div class="card-body">
+          <div class="card-body shadow">
             <h5 class="card-title">生存服务器</h5>
             <p style="color: cadetblue;">版本:1.21 支持互通</p>
             <p style="color: gray;margin: 10px;">-----------------</p>
@@ -52,7 +52,7 @@
       </div>
       <div class="col-4">
         <div class="card" style="width: 18rem;">
-          <div class="card-body">
+          <div class="card-body shadow">
             <h5 class="card-title">生存服务器</h5>
             <p style="color: cadetblue;">版本:1.21 支持互通</p>
             <p style="color: gray;margin: 10px;">-----------------</p>
@@ -65,6 +65,9 @@
         </div>
       </div>
     </div>
+  </div>
+  <div class="container con3">
+    <p>aaaaaaaa</p>
   </div>
 </template>
 
