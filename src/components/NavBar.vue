@@ -12,13 +12,10 @@
             </a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">玩法</a>
+            <a class="nav-link" href="#">公告</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link" href="#">玩家建筑</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">加入我们</a>
+            <a class="nav-link" href="https://qm.qq.com/q/8vZcBo18vC">加入我们</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="https://fk.lyzd.fun">赞助服务器</a>
