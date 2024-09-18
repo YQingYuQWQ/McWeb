@@ -27,7 +27,7 @@
       </div>
     </div>
     <div class="row row-last">
-      <div class="col-4">
+      <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="card-body shadow">
             <h5 class="card-title">生存服务器</h5>
@@ -42,7 +42,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="card-body shadow">
             <h5 class="card-title">宝可梦服务器</h5>
@@ -57,7 +57,7 @@
           </div>
         </div>
       </div>
-      <div class="col-4">
+      <div class="col">
         <div class="card" style="width: 18rem;">
           <div class="card-body shadow">
             <h5 class="card-title">建筑服务器</h5>
@@ -82,7 +82,7 @@
       </div>
     </div>
     <div class="row row-last">
-      <div class="col-6" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled"
+      <div class="col" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled"
         style="animation-duration: 1.5s; animation-delay: 0ms;">
         <div class="card shadow" style="width: 18rem;">
           <img src="@/assets/Manager/danta.jpg" class="card-img-top" alt="danta">
@@ -93,7 +93,7 @@
           </div>
         </div>
       </div>
-      <div class="col-6" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled"
+      <div class="col" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled"
         style="animation-duration: 1.5s; animation-delay: 500ms;">
         <div class="card shadow" style="width: 18rem;">
           <img src="@/assets/Manager/xiaozb.jpg" class="card-img-top" alt="xiaozb">
@@ -112,12 +112,12 @@
       <p style="font-size: 21px;margin-top: 0;margin-bottom: 50px;color: gray;"></p>
     </div>
     <div class="row row-last">
-      <div class="col-6" :class="['animate__animated', 'animate__jackInTheBox']" v-if="PhotoScrolled">
+      <div class="col" :class="['animate__animated', 'animate__jackInTheBox']" v-if="PhotoScrolled">
         <div class="card" style="width: 28rem;">
           <img src="@/assets/PlayerPhoto/1.png" class="img-fluid" alt="...">
         </div>
       </div>
-      <div class="col-6" :class="['animate__animated', 'animate__jackInTheBox']" v-if="PhotoScrolled">
+      <div class="col" :class="['animate__animated', 'animate__jackInTheBox']" v-if="PhotoScrolled">
         <div class="card" style="width: 28rem;">
           <img src="@/assets/PlayerPhoto/2.png" class="img-fluid" alt="...">
         </div>
