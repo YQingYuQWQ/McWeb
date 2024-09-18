@@ -1,19 +1,4 @@
-# mc
+项目基于 Vue 运行
+需要安装VueCLi
 
-## Project setup
-```
-npm install
-```
-
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+下载好环境使用 Vue run serve指令运行
