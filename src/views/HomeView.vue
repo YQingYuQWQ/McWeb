@@ -4,87 +4,81 @@
   </div>
   <div class="container-fluid bg-first">
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-center">
         <h1>凌云之都 | 群组服务器</h1>
       </div>
     </div>
     <div class="row">
-      <div class="col-12">
+      <div class="col-12 text-center">
         <h5>1.21 生电轻RPG | 宝可梦 | 建筑 带给您完美体验</h5>
       </div>
     </div>
     <div class="row" style="margin-top: 30px;">
-      <div class="col-12">
+      <div class="col-12 text-center">
         <a class="btn btn-outline-primary btn-lg" href="https://qm.qq.com/q/ZKHnxgFuc6" role="button">加入我们</a>
       </div>
     </div>
   </div>
   <div class="container-fluid con2">
-    <div class="row row-first">
+    <div class="row row-first text-center">
       <div class="col">
-        <p style="font-size: 40px;font-weight: bold;margin-bottom: 1px;">服务器列表</p>
-        <p style="font-size: 21px;margin-top: 0;margin-bottom: 50px;color: gray;">Server List</p>
+        <p style="font-size: 40px; font-weight: bold; margin-bottom: 1px;">服务器列表</p>
+        <p style="font-size: 21px; margin-top: 0; margin-bottom: 50px; color: gray;">Server List</p>
       </div>
     </div>
     <div class="row row-last">
-      <div class="col">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-4">
+        <div class="card" style="width: 100%;">
           <div class="card-body shadow">
             <h5 class="card-title">生存服务器</h5>
             <p style="color: cadetblue;">版本:1.21 支持互通</p>
-            <hr style="color: gray;margin: 10px;">
+            <hr style="color: gray; margin: 10px;">
             <p style="color: chartreuse;">地址:lyzd.fun</p>
             <p style="color: chartreuse;">端口:4081</p>
-            <hr style="color: gray;margin: 10px;">
-            <img class="responsive-img" src="https://api.mcstatus.io/v2/widget/java/lyzd.fun:4081?dark=false"
-              style="max-width: 100%; height: auto;">
-            <hr style="color: gray;margin: 10px;">
+            <hr style="color: gray; margin: 10px;">
+            <img class="responsive-img" src="https://api.mcstatus.io/v2/widget/java/lyzd.fun:4081?dark=false" style="max-width: 100%; height: auto;">
+            <hr style="color: gray; margin: 10px;">
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-4">
+        <div class="card" style="width: 100%;">
           <div class="card-body shadow">
             <h5 class="card-title">宝可梦服务器</h5>
             <p style="color: cadetblue;">版本:1.20</p>
-            <hr style="color: gray;margin: 10px;">
+            <hr style="color: gray; margin: 10px;">
             <p style="color: chartreuse;">敬请期待</p>
-            <p style="color: chartreuse;">敬请期待</p>
-            <hr style="color: gray;margin: 10px;">
-            <img class="responsive-img" src="https://api.mcstatus.io/v2/widget/java/lyzd.fun:4081?dark=false"
-              style="max-width: 100%; height: auto;">
-            <hr style="color: gray;margin: 10px;">
+            <hr style="color: gray; margin: 10px;">
+            <img class="responsive-img" src="https://api.mcstatus.io/v2/widget/java/lyzd.fun:4081?dark=false" style="max-width: 100%; height: auto;">
+            <hr style="color: gray; margin: 10px;">
           </div>
         </div>
       </div>
-      <div class="col">
-        <div class="card" style="width: 18rem;">
+      <div class="col-12 col-md-4">
+        <div class="card" style="width: 100%;">
           <div class="card-body shadow">
             <h5 class="card-title">建筑服务器</h5>
             <p style="color: cadetblue;">版本:1.21</p>
-            <hr style="color: gray;margin: 10px;">
+            <hr style="color: gray; margin: 10px;">
             <p style="color: chartreuse;">敬请期待</p>
-            <p style="color: chartreuse;">敬请期待</p>
-            <hr style="color: gray;margin: 10px;">
-            <img class="responsive-img" src="https://api.mcstatus.io/v2/widget/java/lyzd.fun:4081?dark=false"
-              style="max-width: 100%; height: auto;">
-            <hr style="color: gray;margin: 10px;">
+            <hr style="color: gray; margin: 10px;">
+            <img class="responsive-img" src="https://api.mcstatus.io/v2/widget/java/lyzd.fun:4081?dark=false" style="max-width: 100%; height: auto;">
+            <hr style="color: gray; margin: 10px;">
           </div>
         </div>
       </div>
     </div>
   </div>
   <div class="container con3">
-    <div class="row row-first">
+    <div class="row row-first text-center">
       <div class="col">
-        <p style="font-size: 40px;font-weight: bold;margin-bottom: 1px;">管理员列表</p>
-        <p style="font-size: 21px;margin-top: 0;margin-bottom: 50px;color: gray;">manager list</p>
+        <p style="font-size: 40px; font-weight: bold; margin-bottom: 1px;">管理员列表</p>
+        <p style="font-size: 21px; margin-top: 0; margin-bottom: 50px; color: gray;">manager list</p>
       </div>
     </div>
     <div class="row row-last">
-      <div class="col" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled"
-        style="animation-duration: 1.5s; animation-delay: 0ms;">
-        <div class="card shadow" style="width: 18rem;">
+      <div class="col" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled" style="animation-duration: 1.5s; animation-delay: 0ms;">
+        <div class="card shadow" style="width: 100%;">
           <img src="@/assets/Manager/danta.jpg" class="card-img-top" alt="danta">
           <div class="card-body">
             <h5 class="card-title">蛋挞</h5>
@@ -93,9 +87,8 @@
           </div>
         </div>
       </div>
-      <div class="col" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled"
-        style="animation-duration: 1.5s; animation-delay: 500ms;">
-        <div class="card shadow" style="width: 18rem;">
+      <div class="col" :class="['animate__animated', 'animate__fadeInRight']" v-if="ManagerScrolled" style="animation-duration: 1.5s; animation-delay: 500ms;">
+        <div class="card shadow" style="width: 100%;">
           <img src="@/assets/Manager/xiaozb.jpg" class="card-img-top" alt="xiaozb">
           <div class="card-body">
             <h5 class="card-title">Z</h5>
@@ -107,18 +100,18 @@
     </div>
   </div>
   <div class="container-fluid con2">
-    <div class="row row-first">
-      <p style="font-size: 40px;font-weight: bold;margin-bottom: 1px;">玩家风采</p>
-      <p style="font-size: 21px;margin-top: 0;margin-bottom: 50px;color: gray;"></p>
+    <div class="row row-first text-center">
+      <p style="font-size: 40px; font-weight: bold; margin-bottom: 1px;">玩家风采</p>
+      <p style="font-size: 21px; margin-top: 0; margin-bottom: 50px; color: gray;"></p>
     </div>
     <div class="row row-last">
       <div class="col" :class="['animate__animated', 'animate__jackInTheBox']" v-if="PhotoScrolled">
-        <div class="card" style="width: 28rem;">
+        <div class="card" style="width: 100%;">
           <img src="@/assets/PlayerPhoto/1.png" class="img-fluid" alt="...">
         </div>
       </div>
       <div class="col" :class="['animate__animated', 'animate__jackInTheBox']" v-if="PhotoScrolled">
-        <div class="card" style="width: 28rem;">
+        <div class="card" style="width: 100%;">
           <img src="@/assets/PlayerPhoto/2.png" class="img-fluid" alt="...">
         </div>
       </div>
@@ -215,5 +208,12 @@ export default {
 
 .row-last {
   margin-bottom: 240px;
+}
+
+/* Mobile-specific styles */
+@media (max-width: 576px) {
+  .card {
+    margin-bottom: 20px; /* Add space between cards */
+  }
 }
 </style>
