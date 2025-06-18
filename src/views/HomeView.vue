@@ -102,7 +102,7 @@ export default {
   data() {
     return {
       servers: [
-        { id: 1, title: "生存服务器", version: "1.21", address: "lyzd.fun", port: "4081" },
+        { id: 1, title: "生存服务器", version: "1.21", address: "mc.lingyunzhidu.com", port: "52222" },
         { id: 2, title: "宝可梦服务器", version: "1.20", address: "lyzd.fun", port: "4081" },
         { id: 3, title: "建筑服务器", version: "1.21", address: "lyzd.fun", port: "4081" }
       ]
